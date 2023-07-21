@@ -1,0 +1,441 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.appBar{
+    background-color: #eaeaea;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 50px;
+    
+}
+.delicious{
+    font-family: 'Birthstone Bounce', cursive;
+    font-weight: 2;
+    
+}
+
+
+/* ---------------second Page---------------- */
+.secondPage{
+    position: absolute;
+    top: 100%;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 97vh;
+}
+
+.cakeDiscription{
+    position: absolute;
+    /* border: 1px solid rgb(0, 47, 255); */
+    width: 30%;
+    height: 97vh;
+}
+
+.cakeSection{
+    position: absolute;
+    /* border: 1px solid rgb(34, 236, 135); */
+    width: 70%;
+    height: 97vh;
+    right:0;
+}
+
+.cakeDiscriptionRectangle{
+    position: absolute;
+    /* border: 1px solid rgb(255, 0, 242); */
+    width: 68%;
+    height: 70vh;
+    right: 0;
+    top:25%;
+    background-color: #a00412;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+
+.cakeCatogary-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 1px solid rgba(237,237,237,0.6);
+    border-top: 1px solid rgba(237,237,237,0.6); */
+    flex-wrap: wrap;
+    margin: 20px;
+    position: absolute;
+    top: 11%;
+    left: 13%;
+}
+
+.cakeCatogary-filter li{
+    margin: 10px;
+    padding: 5px 20px;
+    color: #9b9b9b;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cakeCatogary-filter-active{
+    border-bottom: 1px solid #a00412;
+    color: #272727;
+    /* width: 19px; */
+    /* text-align: center; */
+    
+}
+
+.cake-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    position: absolute;
+    left:2%;
+    top: 22%;
+    height: 79%;
+}
+
+.cake-box{
+    width: 234px;
+    padding: 15px;
+    border: 1px solid #e0dfdf;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px;
+    height: 40%;
+    /* background-color: #e2e2e2; */
+    position: relative;
+    text-align: center;
+}
+
+.cake-box img{
+    width: 96%;
+    height: 66%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.cake-box img:hover{
+    width: 110%;
+    height: 110%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.discripCatogary{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100px;
+    margin:auto;
+    position: absolute;
+    left:34%;
+    top: 41%;
+    /* height: 79%; */
+    text-align: center;
+    color: white;
+    font-family: 'Anek Telugu', sans-serif;
+    font-size: 15px;
+}
+
+.listSection{
+    padding: 15px;
+    margin: -10px;
+    text-align: center;
+    
+}
+
+p{
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+.cupCake-box{
+    display: none;
+
+}
+
+.cookies-box{
+    display: none;
+    
+}
+
+
+
+
+/* ------------------third page-------------------- */
+
+.thirdPage{
+    position: absolute;
+    top:205%;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 70vh;
+
+}
+
+.thirdPageTopic{
+    position: relative;
+    top:12%;
+    /* border: 1px solid rgb(55, 24, 128); */
+    width: 20%;
+    height: 10vh;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.thirdPageTopic h6{
+    font-family: 'Birthstone Bounce', cursive;
+    font-weight: 2;
+}
+
+.thirdPageParagraph{
+    position: relative;
+    top:2%;
+    /* border: 1px solid rgb(7, 141, 85); */
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    margin: auto;
+}
+
+.thirdPageParagraph h6{
+    font-family: 'Birthstone Bounce', cursive;
+    font-weight: 2;
+}
+
+
+
+
+/* ----------------------forth page------------- */
+
+.forthPage{
+    position: absolute;
+    top:270%;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 70vh;
+}
+
+.forthPageDiscription{
+    position: absolute;
+    top:-1%;
+    /* border: 1px solid rgb(15, 196, 30); */
+    width: 38%;
+    height: 75vh;
+}
+
+.forthPageimage{
+    position: absolute;
+    top:-1%;
+    right:0;
+    /* border: 1px solid rgb(62, 20, 179); */
+    width: 63%;
+    height: 75vh;
+}
+
+.forthPageDiscriptionRectangle{
+    position: absolute;
+    top:0;
+    right: 0;
+    /* border: 1px solid rgb(196, 103, 15); */
+    background-color: #a00412;
+    width: 67%;
+    height: 55vh;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.forthPageimageRectangle{
+    position: absolute;
+    top:0;
+    left:28px;
+    /* border: 1px solid rgb(62, 20, 179); */
+    width: 78%;
+    height: 55vh;
+}
+
+.forthPageimageRectangle img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+
+
+
+/* ----------------------five page------------- */
+
+.fivePage{
+    position: absolute;
+    top:330%;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 55vh;
+}
+
+.fivePageRectangle{
+    position: relative;
+    top:4%;
+    /* border: 1px solid rgb(7, 141, 85); */
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    margin: auto;
+}
+
+.fivePageRectangle h6{
+    font-family: 'Birthstone Bounce', cursive;
+    font-weight: 2;
+}
+
+
+
+
+/* ------------------six Page------------------- */
+
+.sixPage{
+    position: absolute;
+    top:385%;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 75vh;
+}
+
+.sixPageRectangle{
+    position: relative;
+    top:2%;
+    /* border: 1px solid rgb(28, 24, 206); */
+    width: 80%;
+    height: 75vh;
+    text-align: center;
+    margin: auto;
+}
+
+.sixPageRectangle img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.sixPageDiscriptionRectangle{
+    position: absolute;
+    top:12.5%;
+    left: 5%;
+    /* border: 1px solid rgb(196, 103, 15); */
+    background-color: #a00412;
+    width: 28%;
+    height: 58vh;
+    border-radius: 5px;
+}
+
+
+
+
+/* -------------seven page (application)---------------- */
+
+.applicationSection{
+    position: absolute;
+    top:465%;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 60vh;
+}
+
+.applicationSectionRectangle{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top:10%;
+    /* border: 1px solid rgb(0, 4, 255); */
+    width: 50%;
+    height: 50vh;
+}
+
+.FirstTrxtFeildRectangle{
+    position: absolute;
+    top:20%;
+    /* border: 1px solid red; */
+    width: 45%;
+    height: 30vh;
+}
+
+.SecondTrxtFeildRectangle{
+    position: absolute;
+    top:20%;
+    /* border: 1px solid rgb(255, 208, 0); */
+    width: 45%;
+    height: 30vh;
+    right: 0;
+}
+
+.textfeildStyle{
+    font-family: 'Anek Telugu', sans-serif;
+    font-size: 5px;
+   width: 100%;
+}
+
+.FirstTrxtFeildRectangle1{
+    position: absolute;
+    top:10%;
+    /* border: 1px solid rgb(0, 26, 255); */
+    width: 100%;
+    height: 10vh;
+}
+
+.FirstTrxtFeildRectangle2{
+    position: absolute;
+    top:40%;
+    /* border: 1px solid rgb(0, 26, 255); */
+    width: 100%;
+    height: 10vh;
+}
+
+.SecondTrxtFeildRectangle1{
+    position: absolute;
+    top:10%;
+    /* border: 1px solid rgb(0, 26, 255); */
+    width: 100%;
+    height: 10vh;
+    
+}
+
+.SecondTrxtFeildRectangle2{
+    position: absolute;
+    top:40%;
+    /* border: 1px solid rgb(0, 26, 255); */
+    width: 100%;
+    height: 10vh;
+    
+}
+
+
+
+/* -------------footer------------- */
+
+.footer{
+    position: absolute;
+    top:520%;
+    /* border: 1px solid red; */
+    background-color: #a00412;
+    width: 100%;
+    height: 10vh;
+}
+
+.footerLinks{
+    position: absolute;
+    top:4%;
+    /* border: 1px solid rgb(68, 0, 255); */
+    width: 80%;
+    height: 10%;
+    left:15%;
+}
